@@ -4,6 +4,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
+import companyLogo from "../../assets/images/companyLogo.jfif";
 
 const Works = () => {
 	return (
@@ -15,7 +16,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./companyLogo.jfif"
+								src={companyLogo}
 								alt="gateway2it pvt. ltd."
 								className="work-image"
 							/>

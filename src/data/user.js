@@ -1,9 +1,10 @@
+import logo from "../assets/images/logo.png"
 const INFO = {
 	main: {
 		title: "Reactfolio by Sandeep",
 		name: "Sandeep Ojha",
 		email: "ojhasandeep902@gmail.com",
-		logo: "../homepage.jpg",
+		logo: {logo},
 	},
 
 	socials: {

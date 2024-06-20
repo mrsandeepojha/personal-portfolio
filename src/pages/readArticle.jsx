@@ -9,7 +9,7 @@ import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
 import myArticles from "../data/articles";
-
+import backButton from "../assets/images/back-button.png";
 import "./styles/readArticle.css";
 
 let ArticleStyle = styled.div``;
@@ -49,7 +49,7 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src="../back-button.png"
+								src={backButton}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(-1)}
