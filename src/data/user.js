@@ -17,7 +17,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-Stack Java Developer Specializing in React.js and Spring Boot.",
+		title: "Full-Stack Java Developer Specializing in React.js and Spring Boot. Testing",
 		description:
 			"I am a full-stack Java developer with expertise in React.js and Spring Boot. My focus is on creating scalable, secure, and reliable web applications using a diverse range of frameworks and technologies. I have a passion for solving complex problems and continuously advancing my skills. Dedicated to writing high-quality code that adheres to industry best practices, I am always seeking new challenges and opportunities to grow as a developer.",
 	},
